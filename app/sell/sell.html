@@ -1,0 +1,16 @@
+<form action="addpet.php" method="POST" autocomplete="on" enctype="multipart/form-data" >
+    <feildset>
+        <legend><u>Add a new pet</u></legend><br>
+        Name:	<input type="text" title="name" name="name" required><br>
+
+        Type:	<input type="text" title="type" name="type" required><br>
+        Breed:	<input type="text" title="breed" name="breed" required><br>
+
+        Age:  <input type="number" title="age" name="age" required><br>
+        Price:   <input type="number" title="price" name="price" required><br>
+        Gender:<select title="gender" name="gender"><option value="Male">Male</option>
+    <option value="Female">Female</option></select><br>
+        Upload profile picture: <input type="File" title="propic" name="propic">
+        Description:   <textarea title="description"  name="description" rows=" 5" cols="20"required></textarea><br>
+        <br><br><input type="submit" class="button" value="Sell pet"/></feildset>
+</form>
