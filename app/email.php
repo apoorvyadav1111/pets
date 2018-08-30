@@ -32,8 +32,8 @@ try {
 
                               // Enable TLS encryption, `ssl` also accepted
     $mail->Port = '465';   // Enable SMTP authentication
-    $mail->Username = 'apoorvyadav1111@gmail.com';                 // SMTP username
-    $mail->Password = 'gixxer150tallu';                           // SMTP password
+    $mail->Username = 'youremaill@gmail.com';                 // SMTP username
+    $mail->Password = 'Your Password';                           // SMTP password
                                     // TCP port to connect to
 
     //Recipients

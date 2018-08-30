@@ -1,7 +1,7 @@
 <?php
 session_start();
 global $mysqli;
-$mysqli = mysqli_connect("localhost", "root", "gixxer150tallu", "pets");
+$mysqli = mysqli_connect("localhost", "root", "", "pets");
 //check connection
 if (mysqli_connect_errno()) {
     printf("Connect failed %s\n", mysqli_connect_error());
